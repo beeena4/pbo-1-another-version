@@ -1,9 +1,9 @@
 public class main {
     public static void main(String[] args) {
-        // Membuat objek FoodItem
+        // Membuat objek list bunga
         ListBunga ListBunga = new ListBunga("CalaLily", 5000, 2, 0.1, "FreshFlower");
        
-        // Menampilkan informasi item makanan
+        // Menampilkan informasi item bunga
         ListBunga.displayInfo();
         System.out.println("----------------------------------------");
 
@@ -18,7 +18,7 @@ public class main {
         ListBunga.setDiskon(0.15);
         ListBunga.setKategori("FreshFlower");
 
-        // Menampilkan informasi item makanan setelah perubahan
+        // Menampilkan informasi item bunga setelah perubahan
         ListBunga.displayInfo();
         System.out.println("----------------------------------------");
 
@@ -34,7 +34,7 @@ public class main {
         ListBunga.setDiskon(1.2);
         System.out.println("----------------------------------------");
 
-        // Menampilkan informasi item makanan setelah mencoba mengatur nilai yang tidak valid
+        // Menampilkan informasi item bunga setelah mencoba mengatur nilai yang tidak valid
         ListBunga.setHarga(-9989);
         ListBunga.displayInfo();
 
