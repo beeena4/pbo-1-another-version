@@ -78,9 +78,9 @@ public class ListBunga {
     }
 
     public void displayInfo() {
-        System.out.println("=======================================");
-        System.out.println("             INFORMASI BUNGA           ");
-        System.out.println("=======================================");
+        System.out.println("========================================");
+        System.out.println("             INFORMASI BUNGA            ");
+        System.out.println("========================================");
         System.out.println("Nama Bunga          : " + getNama());
         System.out.println("Harga pertangkai    : Rp " + String.format("%,.2f", getHarga()));
         System.out.println("Jumlah              : " + getJumlahBunga());
